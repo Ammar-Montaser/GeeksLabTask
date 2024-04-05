@@ -1,0 +1,89 @@
+.spanHead {
+  height: 40px;
+  width: 5px;
+  background-color: #0c8ce9;
+  border-radius: 99px;
+  margin: 0 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
+.poppins-bold {
+  font-size: 48px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.searchbar {
+  padding-left: 6%;
+}
+
+.search-toggle input[type="text"] {
+  position: relative;
+  padding: 15px 30px 15px 17px;
+  height: 18px;
+  width: 27vw;
+  color: #ffffff;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  background: #313131;
+}
+
+.search-toggle i {
+  position: relative;
+  left: -33px;
+  top: 3px;
+  font-size: 20px;
+  color: #676767;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: white;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+.fa-bell {
+  font-size: 30px;
+  color: #53acff;
+}
+.notify-badge {
+  font-size: 10px;
+  position: absolute;
+  right: -5px;
+  top: 15px;
+  width: 15.06px;
+  height: 15.06px;
+  line-height: 15px;
+  background: #118f4b;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  /*   font-size:20px; */
+}
+.notification {
+  margin-top: -10px;
+  position: relative;
+  padding-top: 20px;
+  display: inline-block;
+}

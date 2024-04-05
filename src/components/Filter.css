@@ -1,0 +1,212 @@
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.poppins-regular-small {
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.filter {
+  margin-left: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.selectedFilters {
+  width: 70%;
+  height: 60px;
+  background-color: #313131;
+  border-radius: 10px;
+}
+
+.filterChip {
+  margin: 10px;
+  padding: 1px 15px;
+  width: fit-content;
+  background-color: rgb(117, 168, 246);
+  border-radius: 10px;
+}
+.filterChip i {
+  padding-left: 5px;
+}
+
+.filterSelection {
+  margin-top: 10px;
+  width: 70%;
+  height: 100%;
+  background-color: #333333;
+  border-radius: 10px;
+}
+.content {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.searchbar-small {
+  margin-top: -10px;
+  padding-left: 6%;
+  display: flex;
+}
+
+.searchbar-small .search-toggle input[type="text"] {
+  position: relative;
+  padding: 15px 50px 15px 17px;
+  height: 1px;
+  width: 70%;
+  color: #ffffff;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  background: #5a5a5a;
+}
+
+.search-toggle i {
+  position: relative;
+  left: -33px;
+  top: 3px;
+  font-size: 20px;
+  color: #676767;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: white;
+}
+
+.industrySelection {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding-bottom: 5px;
+  list-style: none;
+}
+
+li i {
+  padding-right: 5px;
+}
+.industrySelection i :hover {
+  background-color: rgb(41, 139, 208);
+}
+
+ul {
+  padding-left: 10px;
+}
+
+.industrySelection span {
+  height: 130px;
+  width: 1px;
+  background-color: #ffffff;
+  border-radius: 99px;
+  margin: 0px 5px;
+}
+
+.radioSelection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: -30px;
+}
+.radioSelection i {
+  font-size: 12px;
+  padding: 4px;
+}
+
+input[type="radio"] {
+  height: 1.1rem;
+  width: 1.1rem;
+  margin-right: 0.5rem;
+  accent-color: darkgray;
+}
+
+h2 i {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.sectionLeft h2 {
+  margin-left: 50px;
+}
+.sectionLeft {
+  display: flex;
+  flex-direction: column;
+}
+.sectionRight {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  color: #ffffff;
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 25%;
+}
+
+.strategyAssetSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: -30px;
+  margin-top: -10px;
+}
+.strategyAssetSection p {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.highlighted {
+  padding: 5px 10px;
+  background-color: rgb(55, 95, 194);
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(74, 131, 246);
+  margin: 15px;
+  padding: 10px 60px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+h2 {
+  margin: 10px;
+}
